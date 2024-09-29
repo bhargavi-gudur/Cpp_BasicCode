@@ -15,4 +15,5 @@ This repository contains a simple "Hello, World!" program in C++ to start my cod
     ```
 
 ## Output
+hello_world
 
