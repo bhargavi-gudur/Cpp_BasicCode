@@ -11,4 +11,9 @@ This project is a simple C++ program that calculates the area of a circle given 
   
 - **Main Function:**
   - Creates an object of the `areaofcircle` class.
+  -  Outputs the radius and the computed area.
+ 
+  ## Output
+  -Radius of circle: 5
+  -Area of circle: 78.5
   
