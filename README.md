@@ -21,6 +21,12 @@ The `helloworld` folder contains the most basic C++ program that prints "Hello, 
 - Basic syntax of C++.
 - Writing and compiling a simple program.
 - Using the `iostream` library for output.
+  
+### 5. bubblesort
+The bubblesort folder contains an implementation of the bubble sort algorithm using C++'s inbuilt swap function. The bubble sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. It provides an example of using templates in C++ and covers how to implement basic sorting logic.
+
+### 6. passArrToFun
+This folder includes examples of how to pass arrays to functions in C++, showcasing different techniques and use cases.
 
 ## How to Use This Repository
 
