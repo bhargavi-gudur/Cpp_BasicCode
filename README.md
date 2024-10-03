@@ -28,6 +28,9 @@ The bubblesort folder contains an implementation of the bubble sort algorithm us
 ### 6. passArrToFun
 This folder includes examples of how to pass arrays to functions in C++, showcasing different techniques and use cases.
 
+### 7. copyconstructor
+The `copyconstructor` class includes a parameterized constructor, a copy constructor, a destructor, and a method to display the value of its member variable.
+
 ## How to Use This Repository
 
 1. **Clone the Repository**: To download the code to your local machine:
