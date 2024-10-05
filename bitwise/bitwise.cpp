@@ -12,6 +12,7 @@
 using namespace std;
 
 void bitwiseOperator();
+void bitWiseShiftOperator();
 
 /**
  * @brief Calls bitwiseOperator() and exits.
@@ -21,6 +22,7 @@ void bitwiseOperator();
 int main()
 {
     bitwiseOperator();
+    bitWiseShiftOperator();
     return 0;
 }
 
@@ -37,8 +39,8 @@ void bitwiseOperator()
     int NotOperat = 1;
     int XorOperat = 2;
 
+    cout << "*************************" << endl;
     cout << "checking the bitwise operator work : " << endl;
-
     andOpert &= andOpert;
     cout << "andoperator:" << andOpert << endl;
     orOperat |= orOperat;
@@ -49,4 +51,23 @@ void bitwiseOperator()
     cout << "NOT operator:" << NotOperat << endl;
     XorOperat ^= XorOperat;
     cout << "XOR operator:" << XorOperat << endl;
+    cout << "****************************" << endl;
+}
+/**
+ * @brief   Performs several bitwise shift operations (left shift , right shift)
+ * and prints the results.
+ *
+ */
+void bitWiseShiftOperator()
+{
+    int leftshift;
+    int rightshift;
+    int value = 6;
+    cout << "checking the bitwise operator work : " << endl;
+
+    leftshift = value << 1;
+    cout << "left shift operator:" << leftshift << endl;
+    rightshift = value >> 1;
+    cout << "right shift operator:" << rightshift << endl;
+    cout << "****************************" << endl;
 }
