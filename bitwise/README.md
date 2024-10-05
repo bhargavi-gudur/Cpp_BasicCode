@@ -14,3 +14,17 @@ To compile and run the program:
 ```bash
 - g++ bitwise.cpp -o bitwise
 - ./bitwise
+
+## Output
+*************************
+checking the bitwise operator work : 
+andoperator:9
+or operator:8
+NAND operator:0
+NOT operator:-2
+XOR operator:0
+****************************
+checking the bitwise operator work : 
+left shift operator:12
+right shift operator:3
+****************************
