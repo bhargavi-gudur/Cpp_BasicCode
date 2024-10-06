@@ -14,9 +14,10 @@
 
 using namespace std;
 void enum_fun(); // function declaration
+void convert_enum_char(); // function declaration
 
 /**
- * @brief
+ * @brief enumeration declaration
  *
  */
 enum weekDays
@@ -29,12 +30,10 @@ enum weekDays
     fri,
     sat
 };
-
-/**
- * @brief
- *
- */
-weekDays enum_var[N] = {sun, mon, tue, wed, thur, fri, sat};
+weekDays enum_var[N] =
+    {sun, mon, tue, wed, thur, fri, sat};
+const char *daysofweek[] =
+    {"sun", "mon", "tue", "wed", "thur", "fri", "sat"};
 
 /**
  * @brief  main function to call the enumeration calling
@@ -44,11 +43,13 @@ weekDays enum_var[N] = {sun, mon, tue, wed, thur, fri, sat};
 int main()
 {
     enum_fun();
+    convert_enum_char();
+
     return 0;
 }
 
 /**
- * @brief The enum_fun function processes and prints out the days of the week.
+ * @brief The enum_fun function processes and prints out the days  of the week in integer .
  *
  */
 void enum_fun()
@@ -58,5 +59,16 @@ void enum_fun()
     {
         enum_var[loop] = static_cast<weekDays>(enum_var[loop]);
         cout << "weekdays :" << enum_var[loop] << endl;
+    }
+}
+/**
+ * @brief  The function processes and prints out the days of the week in string .
+ *
+ */
+void convert_enum_char()
+{
+    for (int i = 0; i < sat; i++)
+    {
+        cout << "string of the week  days : " << daysofweek[i] << endl;
     }
 }
