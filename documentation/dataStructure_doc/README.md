@@ -49,7 +49,8 @@ This repository provides programs to help you understand the use cases for diffe
 
 ### 1. **Vector + Ordered Map**: 
    Demonstrates using a `map` to count occurrences of each number and find the first unique number in the vector. The `map` maintains the order of keys.
-   #include <iostream>
+   
+#include <iostream>
 #include <vector>
 #include <map> // Ordered map
 using namespace std;
@@ -90,7 +91,8 @@ int findOccurrenceOrderedMap(const vector<int> &nums)
 
 ### 2. **Vector + Unordered Map**:
    Uses `unordered_map` for fast insertion and lookup operations. This example is similar to the ordered map but is faster due to the hash table structure.
-   #include <iostream>
+   
+#include <iostream>
 #include <vector>
 #include <unordered_map> // Unordered map
 using namespace std;
