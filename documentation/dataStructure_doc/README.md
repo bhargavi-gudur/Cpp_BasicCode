@@ -7,7 +7,7 @@ This repository provides programs to help you understand the use cases for diffe
 - **Vectors (`vector`)**
 - **Arrays**
 
-Each program in this repository demonstrates how these data structures can be used to find the first unique number in a vector.
+ this repository demonstrates how these data structures can be used to find the first unique number in a vector.
 
 ---
 
@@ -49,12 +49,128 @@ Each program in this repository demonstrates how these data structures can be us
 
 ### 1. **Vector + Ordered Map**: 
    Demonstrates using a `map` to count occurrences of each number and find the first unique number in the vector. The `map` maintains the order of keys.
+   #include <iostream>
+#include <vector>
+#include <map> // Ordered map
+using namespace std;
+
+int findOccurrenceOrderedMap(const vector<int> &nums);
+
+int main()
+{
+    vector<int> nums = {1, 2, 5, 6, 7, 5, 2};
+    int result = findOccurrenceOrderedMap(nums);
+    cout << "The first unique number (ordered map) is: " << result << endl;
+
+    return 0;
+}
+
+int findOccurrenceOrderedMap(const vector<int> &nums)
+{
+    map<int, int> countMap;
+
+    // Count occurrences of each number
+    for (int num : nums)
+    {
+        countMap[num]++;
+    }
+
+    // Find the first unique number by iterating through the original vector
+    for (const int &num : nums)
+    {
+        if (countMap[num] == 1)
+        {
+            return num;
+        }
+    }
+
+    return -1; // No unique number found
+}
+
 
 ### 2. **Vector + Unordered Map**:
    Uses `unordered_map` for fast insertion and lookup operations. This example is similar to the ordered map but is faster due to the hash table structure.
+   #include <iostream>
+#include <vector>
+#include <unordered_map> // Unordered map
+using namespace std;
+
+int findOccurrenceUnorderedMap(const vector<int> &nums);
+
+int main()
+{
+    vector<int> nums = {1, 2, 5, 6, 7, 5, 2};
+    int result = findOccurrenceUnorderedMap(nums);
+    cout << "The first unique number (unordered map) is: " << result << endl;
+
+    return 0;
+}
+
+int findOccurrenceUnorderedMap(const vector<int> &nums)
+{
+    unordered_map<int, int> countMap;
+
+    // Count occurrences of each number
+    for (int num : nums)
+    {
+        countMap[num]++;
+    }
+
+    // Find the first unique number by iterating through the original vector
+    for (const int &num : nums)
+    {
+        if (countMap[num] == 1)
+        {
+            return num;
+        }
+    }
+
+    return -1; // No unique number found
+}
+
 
 ### 3. **Vector + Array**:
    Illustrates how to use an array for counting occurrences of elements in the vector, assuming the range of values is known and small.
+   
+#include <iostream>
+#include <vector>
+#include <array> // Using fixed-size array for counting
+using namespace std;
+
+int findOccurrenceArray(const vector<int> &nums);
+
+int main()
+{
+    vector<int> nums = {1, 2, 5, 6, 7, 5, 2};
+    int result = findOccurrenceArray(nums);
+    cout << "The first unique number (array counting) is: " << result << endl;
+
+    return 0;
+}
+
+int findOccurrenceArray(const vector<int> &nums)
+{
+    const int MAX_VALUE = 100; // Assuming elements are within the range [0, MAX_VALUE)
+    array<int, MAX_VALUE> countArray = {0};
+
+    // Count occurrences of each number
+    for (int num : nums)
+    {
+        countArray[num]++;
+    }
+
+    // Find the first unique number by iterating through the original vector
+    for (const int &num : nums)
+    {
+        if (countArray[num] == 1)
+        {
+            return num;
+        }
+    }
+
+    return -1; // No unique number found
+}
+
 
 ---
 
