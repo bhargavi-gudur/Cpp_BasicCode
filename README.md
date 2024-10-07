@@ -31,6 +31,20 @@ This folder includes examples of how to pass arrays to functions in C++, showcas
 ### 7. copyconstructor
 The `copyconstructor` class includes a parameterized constructor, a copy constructor, a destructor, and a method to display the value of its member variable.
 
+### 8. prime_num
+The file `prime_num.cpp` includes a function that checks if a given integer is prime and prints the result to the console.
+
+### 9.bitwisewise
+The file `bitwise.cpp` includes a function that performs AND, OR, NAND, NOT, and XOR operations on integer values and prints the results to the console.
+
+### 10. min_max_arr
+The `minmax_arr.cpp` file contains a C++ program that finds the minimum and maximum values in an array.
+
+### 11. array
+The program allows users to input elements into an array and then displays the elements along with their indices. It covers basic C++ concepts like loops, arrays, and standard input/output operations.
+
+### 12.structure
+This project demonstrates the use of structures in C++. The `areaofcircle` structure is used to store and display the radius and area of a circle.
 ## How to Use This Repository
 
 1. **Clone the Repository**: To download the code to your local machine:
@@ -77,5 +91,7 @@ Contributions to improve the repository or add more programming concepts are wel
 5. Open a pull request to this repository.
 
 ---
+
+![image](https://github.com/user-attachments/assets/f695f069-9005-4fff-a0fb-36456169613e)
 
 Happy coding! 🚀
