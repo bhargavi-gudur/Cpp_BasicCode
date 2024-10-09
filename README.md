@@ -45,6 +45,74 @@ The program allows users to input elements into an array and then displays the e
 
 ### 12.structure
 This project demonstrates the use of structures in C++. The `areaofcircle` structure is used to store and display the radius and area of a circle.
+
+# Code Practice Repository
+
+This repository contains various C++ programs to practice different programming concepts and algorithms.
+
+## Programs Overview
+
+### Addition
+- Addition program to perform basic arithmetic operations.
+
+### Array
+- Updated code for the addition function using arrays.
+
+### Array STL
+- Program demonstrating the use of array container from the STL.
+
+### Bitwise
+-  Bitwise operators in C++ allow you to manipulate individual bits of data, providing an efficient way to perform tasks that require fine-grained control over data.
+
+### Bubble Sort
+- Implementation of the bubble sort algorithm.
+
+### Class Modifier
+- Example program showcasing the use of class modifiers.
+
+### Copy Constructor
+- Demonstration of a copy constructor in C++.
+
+### Data Types
+- Programs related to data types using classes and objects.
+
+### Enumeration
+- Updated code and files for enumeration examples.
+
+### HelloWorld
+- Basic "Hello, World!" program moved to the `helloworld` directory.
+
+### Map
+- Program illustrating the use of maps.
+
+### Min-Max Array
+- Functions to find the minimum and maximum values in an array.
+
+### Odd-Even
+- Program demonstrating the odd-even concept using arrays.
+
+### Pass Array to Function
+- Example of passing arrays to functions.
+
+### Pointer
+- Pointer program using call by reference.
+
+### Prime Number
+- Program to check prime numbers.
+
+### Structure
+- Examples of using structures.
+
+### Unordered Maps
+- Vector programming using unordered maps.
+
+### Vector
+- Vector Basics: A vector is a dynamic array that can grow and shrink in size.
+- Adding Elements: Use push_back() to add elements.
+- Accessing Elements: Elements can be accessed using an index or an iterator.
+- Size: Use size() to get the number of elements.
+- Removing Elements: Use pop_back() to remove the last element.
+  
 ## How to Use This Repository
 
 1. **Clone the Repository**: To download the code to your local machine:
