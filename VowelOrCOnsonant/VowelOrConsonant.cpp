@@ -1,7 +1,8 @@
 /**
  * @file VowelOrConsonant.cpp
  * @author GandlaBhargavi
- * @brief
+ * @brief The program uses the `isalpha`
+ * function from the C++ standard library to check if the input is an alphabet.
  * @version 0.1
  * @date 2024-10-31
  *
@@ -13,7 +14,7 @@
 
 using namespace std;
 /**
- * @brief
+ * @brief class of vowel or consonant.
  *
  */
 class VowelOrConsonant
@@ -25,7 +26,9 @@ public:
     ~VowelOrConsonant() {}
 };
 /**
- * @brief
+ * @brief  - Check if a character is a vowel.
+ *         - Check if a character is a consonant.
+ *         - Identify if the character is not an alphabet.
  *
  */
 void VowelOrConsonant::display()
