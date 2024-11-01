@@ -1,7 +1,8 @@
 /**
  * @file swapNum.cpp
  * @author Gandla Bhargavi
- * @brief
+ * @brief a C++ program that demonstrates swapping the contents
+ * of two vectors using a class method.
  * @version 0.1
  * @date 2024-11-01
  *
@@ -12,7 +13,7 @@
 #include <vector>
 using namespace std;
 /**
- * @brief
+ * @brief  class named `swapnum`
  *
  */
 class swapnum
@@ -36,7 +37,7 @@ swapnum::swapnum()
     num2 = {4, 5, 6};
 }
 /**
- * @brief
+ * @brief method to initialize, swap, and display the vector contents.
  *
  */
 void swapnum::swapnum_method()
@@ -65,7 +66,7 @@ void swapnum::swapnum_method()
     cout << endl;
 }
 /**
- * @brief
+ * @brief main function
  *
  * @return int
  */
