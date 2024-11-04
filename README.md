@@ -12,107 +12,105 @@ The `bubblesort` folder contains an implementation of the bubble sort algorithm 
 
 ### 3. `classmodifier`
 This folder includes code examples demonstrating the use of class modifiers in C++. It likely explores concepts such as:
-- Access specifiers (`public`, `private`, `protected`).
-- How classes are used to encapsulate data and functions.
-- Object-oriented programming fundamentals in C++.
+- Access specifiers (`public`, `private`, `protected`)
+- How classes are used to encapsulate data and functions
+- Object-oriented programming fundamentals in C++
 
 ### 4. `helloworld`
 The `helloworld` folder contains the most basic C++ program that prints "Hello, World!" to the console. It is a standard starting point for learning any programming language and introduces you to:
-- Basic syntax of C++.
-- Writing and compiling a simple program.
-- Using the `iostream` library for output.
-  
-### 5. bubblesort
-The bubblesort folder contains an implementation of the bubble sort algorithm using C++'s inbuilt swap function. The bubble sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. It provides an example of using templates in C++ and covers how to implement basic sorting logic.
+- Basic syntax of C++
+- Writing and compiling a simple program
+- Using the `iostream` library for output
 
-### 6. passArrToFun
+### 5. `passArrToFun`
 This folder includes examples of how to pass arrays to functions in C++, showcasing different techniques and use cases.
 
-### 7. copyconstructor
+### 6. `copyconstructor`
 The `copyconstructor` class includes a parameterized constructor, a copy constructor, a destructor, and a method to display the value of its member variable.
 
-### 8. prime_num
+### 7. `prime_num`
 The file `prime_num.cpp` includes a function that checks if a given integer is prime and prints the result to the console.
 
-### 9.bitwisewise
+### 8. `bitwise`
 The file `bitwise.cpp` includes a function that performs AND, OR, NAND, NOT, and XOR operations on integer values and prints the results to the console.
 
-### 10. min_max_arr
+### 9. `min_max_arr`
 The `minmax_arr.cpp` file contains a C++ program that finds the minimum and maximum values in an array.
 
-### 11. array
+### 10. `array`
 The program allows users to input elements into an array and then displays the elements along with their indices. It covers basic C++ concepts like loops, arrays, and standard input/output operations.
 
-### 12.structure
+### 11. `structure`
 This project demonstrates the use of structures in C++. The `areaofcircle` structure is used to store and display the radius and area of a circle.
 
-# Code Practice Repository
+### 12. `VowelOrConsonant`
+Sample program to determine whether a character is a vowel or consonant.
 
-This repository contains various C++ programs to practice different programming concepts and algorithms.
+### 13. `Array_STL`
+Programs demonstrating arrays using the STL container.
 
-## Programs Overview
+### 14. `Cls_obj_array`
+Class and object programs for array manipulation.
 
-### Addition
-- Addition program to perform basic arithmetic operations.
+### 15. `Cls_obj_vector`
+Programs demonstrating the use of classes and objects with vectors.
 
-### Array
-- Updated code for the addition function using arrays.
+### 16. `DynamicMemAlloction`
+Programs for dynamic memory allocation.
 
-### Array STL
-- Program demonstrating the use of array container from the STL.
+### 17. `Enumeration`
+Programs using enumerations.
 
-### Bitwise
--  Bitwise operators in C++ allow you to manipulate individual bits of data, providing an efficient way to perform tasks that require fine-grained control over data.
+### 18. `Map`
+Programs involving the use of map containers.
 
-### Bubble Sort
-- Implementation of the bubble sort algorithm.
+### 19. `Odd_even`
+Programs to separate odd and even numbers using arrays.
 
-### Class Modifier
-- Example program showcasing the use of class modifiers.
+### 20. `Odd_even_array`
+STL array to separate odd and even numbers.
 
-### Copy Constructor
-- Demonstration of a copy constructor in C++.
+### 21. `Odd_even_vector`
+Programs to separate odd and even numbers using vectors.
 
-### Data Types
-- Programs related to data types using classes and objects.
+### 22. `PairSTL`
+Basic programs using the pair container in STL.
 
-### Enumeration
-- Updated code and files for enumeration examples.
+### 23. `Pointer`
+Programs using pointers and call by reference.
 
-### HelloWorld
-- Basic "Hello, World!" program moved to the `helloworld` directory.
+### 24. `Pointer_types`
+Programs using void pointers.
 
-### Map
-- Program illustrating the use of maps.
+### 25. `Ptr_dynamicMemAlloc`
+Programs using pointers for dynamic memory allocation.
 
-### Min-Max Array
-- Functions to find the minimum and maximum values in an array.
+### 26. `SwapNum_obj`
+Programs to swap numbers using objects and classes.
 
-### Odd-Even
-- Program demonstrating the odd-even concept using arrays.
+### 27. `SwitchEnum`
+Programs using enumeration and switch cases for geometric shapes.
 
-### Pass Array to Function
-- Example of passing arrays to functions.
+### 28. `Switch_case`
+Programs using switch case for arithmetic operations.
 
-### Pointer
-- Pointer program using call by reference.
+### 29. `Template`
+Programs using templates and the AND operator.
 
-### Prime Number
-- Program to check prime numbers.
+### 30. `UnorderedMaps`
+Programs using vectors and unordered maps.
 
-### Structure
-- Examples of using structures.
+### 31. `Unordered_map`
+Programs using unordered maps to manage and display cumulative sums.
 
-### Unordered Maps
-- Vector programming using unordered maps.
-
-### Vector
+### 32. `Vector`
+Programs using vectors.
 - Vector Basics: A vector is a dynamic array that can grow and shrink in size.
-- Adding Elements: Use push_back() to add elements.
+- Adding Elements: Use `push_back()` to add elements.
 - Accessing Elements: Elements can be accessed using an index or an iterator.
-- Size: Use size() to get the number of elements.
-- Removing Elements: Use pop_back() to remove the last element.
-  
+- Size: Use `size()` to get the number of elements.
+- Removing Elements: Use `pop_back()` to remove the last element.
+
 ## How to Use This Repository
 
 1. **Clone the Repository**: To download the code to your local machine:
@@ -157,9 +155,5 @@ Contributions to improve the repository or add more programming concepts are wel
     git push origin feature-branch
     ```
 5. Open a pull request to this repository.
-
----
-
-![image](https://github.com/user-attachments/assets/f695f069-9005-4fff-a0fb-36456169613e)
 
 Happy coding! 🚀
