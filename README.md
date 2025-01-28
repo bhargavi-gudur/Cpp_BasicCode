@@ -3,6 +3,7 @@
 A collection of simple C++ programs designed to help understand and practice fundamental programming concepts. Each folder in the repository contains code that demonstrates a specific topic or functionality.
 
 ## Repository Structure
+- [Cpp_BasicCode](https://github.com/bhargavi-gudur/Cpp_BasicCode.git)
 
 ### 1. `addition`
 This folder contains a simple program to perform basic addition of numbers. It is intended to help beginners understand how to perform arithmetic operations in C++ and how to take user input.
