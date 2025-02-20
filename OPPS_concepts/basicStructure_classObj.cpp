@@ -12,7 +12,7 @@
 #include <string>
 using namespace std;
 /**
- * @brief
+ * @brief class and object 
  *
  */
 class teacher
@@ -42,7 +42,7 @@ public:
     }
 };
 /**
- * @brief
+ * @brief main function 
  *
  * @return int
  */
