@@ -46,7 +46,8 @@ void odd_even ::odd_even_fun()
 {
     array<int, N> odd = {};
     array<int, N> even = {};
-    int odd_count = 0, even_count = 0;
+    int odd_count = 0;
+    int even_count = 0;
 
     for (int num : odd_even_var)
     {
