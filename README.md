@@ -157,4 +157,8 @@ Contributions to improve the repository or add more programming concepts are wel
     ```
 5. Open a pull request to this repository.
 
+## Acknowledgments
+
+This repository was created with the help of AI tools like GitHub Copilot and ChatGPT. Many of the C++ code examples were inspired by various online resources, tutorials, and community contributions. Special thanks to all those who have provided valuable feedback and contributions to improve the repository.
+
 Happy coding! 🚀
