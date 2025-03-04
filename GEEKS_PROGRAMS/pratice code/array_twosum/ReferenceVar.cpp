@@ -1,8 +1,9 @@
 /**
  * @file ReferenceVar.cpp
  * @author gandla bhargavi
- * @brief  Reference is an alias to a variable. this  program explains how to use reference variable.
- * this program took from greek to geeks.
+ * @brief  Reference is an alias to a variable.
+ * this  program explains how to use reference variable.
+ *
  * @version 0.1
  * @date 2025-03-03
  *
@@ -18,7 +19,7 @@ int main()
     return 0;
 }
 /**
- * @brief   Reference is an alias to a variable.
+ * @brief Reference is an alias to a variable.
  *
  */
 void reference()
@@ -39,3 +40,7 @@ void reference()
     cout << "ref = " << ref << endl;
     cout << "x = " << x << endl;
 }
+/**
+ * @brief this program took from greek to geeks.
+ * i have modified to function as a pass by value.
+ */
