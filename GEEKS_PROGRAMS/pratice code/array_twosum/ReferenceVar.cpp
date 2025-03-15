@@ -1,4 +1,4 @@
-/**
+/*
  * @file ReferenceVar.cpp
  * @author gandla bhargavi
  * @brief  Reference is an alias to a variable.
