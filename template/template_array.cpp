@@ -1,5 +1,5 @@
 /**
- * @file template.cpp
+ * @file template_array.cpp
  * @author Gandla Bhargavi
  * @brief This program demonstrates the use of templates for bitwise operations.
  * @version 0.1
