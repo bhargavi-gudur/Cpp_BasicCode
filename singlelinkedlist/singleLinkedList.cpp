@@ -1,7 +1,8 @@
 /**
- * @file singleLinkedList.cpp
+ * @file   singleLinkedList.cpp
  * @author gandla bhargavi
- * @brief
+ * @brief  singly linked list to create the data and address to access the 
+ *  in a linear way.
  * @version 0.1
  * @date 2025-03-13
  *
@@ -14,6 +15,10 @@ using std::cin;
 using std::cout;
 using std::endl;
 
+/**
+ * @brief to create the  struct node 
+ * 
+ */
 struct node
 {
     int data;      // Data part of the node
@@ -25,12 +30,20 @@ struct node *head = nullptr, *newnode = nullptr, *temp = nullptr;
 void singleLinkedList();
 void displayLinkedList();
 
+/**
+ * @brief int main function
+ *
+ * @return int
+ */
 int main()
 {
     singleLinkedList();
     return 0;
 }
-
+/**
+ * @brief
+ *
+ */
 void singleLinkedList()
 {
     int choice = 1; // Initialize choice to a non-zero value for entering the loop
