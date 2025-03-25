@@ -1,11 +1,14 @@
 /**
  * @file array_twosum.cpp
  * @author gandla bhargavi
- * @brief
+ *
+ * @brief This program solves the "Two Sum" problem using
+ * a class-based approach in C++. The goal of the problem is
+ * to find two numbers in an array that add up to a given
+ * target value and return their indices.
+ *
  * @version 0.1
  * @date 2024-12-07
- *
- * @copyright Copyright (c) 2024
  *
  */
 
@@ -14,6 +17,10 @@
 #include <unordered_map>
 using namespace std;
 
+/**
+ * @brief class solution
+ *
+ */
 class Solution
 {
 public:
@@ -39,7 +46,11 @@ public:
         return {};
     }
 };
-
+/**
+ * @brief  main function ,tests the Solution class with three example cases.
+ *
+ * @return int
+ */
 int main()
 {
     // Test the Solution class
