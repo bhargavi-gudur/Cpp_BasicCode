@@ -5,16 +5,21 @@
  * and display the elements in the array and find the smallest element in the array.
  * @version 0.1
  * @date 2025-02-27
- * 
- * @copyright Copyright (c) 2025
- * 
+ *
  */
 #include <iostream>
 using namespace std;
 
 const int ROWS = 4;
 const int COLS = 2;
-
+/**
+ * @brief  function to find the smallest element in a 2D array.
+ *
+ * @param arr
+ * @param rows
+ * @param cols
+ * @return int
+ */
 int smallest(int arr[ROWS][COLS], int rows, int cols)
 {
     int max = arr[0][0];
@@ -35,7 +40,11 @@ int smallest(int arr[ROWS][COLS], int rows, int cols)
 
     return max;
 }
-
+/**
+ * @brief  Main function to execute the program.
+ *
+ * @return int
+ */
 int main()
 {
     int arr[ROWS][COLS] = {3, 1, 4, 1, 5, 9, 2, 6};
