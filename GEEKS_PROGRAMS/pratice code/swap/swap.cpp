@@ -1,16 +1,23 @@
 /**
  * @file swap.cpp
  * @author Gandla Bhargavi
- * @brief
+ * @brief to demostrate the programming class and object concept 
+ *  swap program 
  * @version 0.1
  * @date 2024-11-05
- *
- * @copyright Copyright (c) 2024
  *
  */
 #include <iostream>
 #include <vector>
+
 using namespace std;
+
+
+/**
+ * @brief  class swap  using vector method created and sapping the value swap1 
+ * and swap2 array values.
+ * 
+ */
 class swap_cls
 {
 private:
@@ -40,7 +47,8 @@ void swap_cls ::swap_fun()
 }
 
 /**
- * @brief
+ * @brief to dispaly the function  swap1 and 
+ * swap2 .
  *
  */
 void swap_cls::display()
