@@ -13,6 +13,7 @@
 
 #include <iostream>
 #define N 6
+
 using namespace std;
 int array(); // function declaration
 void array_add(); // function declaration
@@ -22,7 +23,7 @@ void array_add(); // function declaration
  *
  * @return int
  */
-int array() // function definition
+int array() 
 {
     int arr[N];
     int loop;
