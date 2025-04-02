@@ -2,12 +2,13 @@
  * @file array_insert.cpp
  * @author gandla bhargavi
  * @brief  This is a simple C++ program designed to help beginners understand,
- *  how to insert elements into an array at a specific position.
- * It covers basic C++ concepts like loops, arrays, and standard input/output operations.
+ * how to insert elements into an array at a specific position.
+ *
+ * It covers basic C++ concepts like loops, arrays, and standard
+ * input/output operations.
+ *
  * @version 0.1
  * @date 2025-02-24
- *
- * @copyright Copyright (c) 2025
  *
  */
 
