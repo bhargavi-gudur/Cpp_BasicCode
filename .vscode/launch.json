@@ -1,7 +1,6 @@
 {
   "version": "0.2.0",
   "configurations": [
-    
     {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
@@ -9,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/gandl/Downloads/sampleProgram/code-practice/min_max_arr",
-      "program": "c:/Users/gandl/Downloads/sampleProgram/code-practice/min_max_arr/build/Debug/outDebug",
+      "cwd": "c:/Users/gandl/Downloads/git_bhargavi_gudur/Cpp_BasicCode",
+      "program": "c:/Users/gandl/Downloads/git_bhargavi_gudur/Cpp_BasicCode/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
