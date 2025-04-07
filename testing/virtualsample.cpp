@@ -1,7 +1,19 @@
+/**
+ * @file virtualsample.cpp
+ * @author Gandla Bhargavi
+ * @brief   This program demonstrates the use of abstract classes and virtual functions in C++.
+ *          It defines an abstract class Bank with pure virtual functions for sum and division.
+ * @version 0.1
+ * @date 2025-04-07
+ *
+ */
 #include <iostream>
 using namespace std;
 
-// Abstract class
+/**
+ * @brief   Abstract class Bank with pure virtual functions for sum and division.
+ *
+ */
 class Bank
 {
 public:
@@ -13,7 +25,10 @@ public:
     virtual ~Bank() {}
 };
 
-// Derived class implementing the abstract functions
+/**
+ * @brief  Concrete class Operations that implements the abstract class Bank.
+ * 
+ */
 class Operations : public Bank
 {
 public:
@@ -30,7 +45,11 @@ public:
             cout << "Error: Division by zero is undefined." << endl;
     }
 };
-
+/**
+ * @brief  Main function to demonstrate the use of abstract classes and virtual functions.
+ * 
+ * @return int 
+ */
 int main()
 {
     // Pointer to the abstract class
