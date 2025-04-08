@@ -7,9 +7,12 @@
  * @date 2025-03-04
  *
  */
+
 #include <iostream>
 
-using namespace std;
+using std::cin;
+using std::cout;
+using std::endl;
 
 // method declaration
 void array_2d_sample();
