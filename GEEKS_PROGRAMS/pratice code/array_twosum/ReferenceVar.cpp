@@ -1,4 +1,4 @@
-/*
+/**
  * @file ReferenceVar.cpp
  * @author gandla bhargavi
  * @brief  Reference is an alias to a variable.
@@ -12,7 +12,11 @@
 using namespace std;
 
 void reference();
-
+/**
+ * @brief  main function calling reference function.
+ * 
+ * @return int 
+ */
 int main()
 {
     reference();
