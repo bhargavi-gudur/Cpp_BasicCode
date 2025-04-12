@@ -1,7 +1,7 @@
 /**
  * @file pattern_matcher.cpp
  * @author Gandla Bhargavi
- * @brief
+ * @brief to demostrate smaple 
  * @version 0.1
  * @date 2024-11-05
  *
@@ -12,6 +12,10 @@
 #include <string>
 using namespace std;
 
+/**
+ * @brief  class type stringchecker 
+ * 
+ */
 class StringChecker
 {
 private:
@@ -22,18 +26,21 @@ public:
     bool isAnBn() const;
     ~StringChecker() {}
 };
+
 /**
  * @brief Construct a new String Checker:: String Checker object
  *
  * @param str
  */
 StringChecker::StringChecker(const string &str) : str_(str) {}
+
 /**
- * @brief
+ * @brief the string value present in array are not.
  *
  * @return true
  * @return false
  */
+
 bool StringChecker ::isAnBn() const
 {
     int n = str_.length();
