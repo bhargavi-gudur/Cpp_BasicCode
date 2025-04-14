@@ -10,8 +10,10 @@
  *
  */
 #include <iostream>
+
 using namespace std;
-void print_array(int[], int size); // function declaration
+
+void print_array(int a[], int size); // function declaration
 /**
  * @brief Main function to initialize an array and call the print_array function.
  *
