@@ -1,7 +1,9 @@
 /**
  * @file atmapp.cpp
  * @author Gandla Bhargavi
- * @brief
+ * @brief  ATM Application
+ * @details This ATM application allows users to check their balance,
+ *  withdraw money, and deposit money.
  * @version 0.1
  * @date 2025-03-14
  *
@@ -9,25 +11,29 @@
  *
  */
 
- #include<iostream>
+#include <iostream>
 
 using std::cin;
 using std::cout;
 using std::endl;
 /**
- * @brief 
- * 
+ * @brief  ATM Application prototype
+ *
  */
 void atmApp();
-
+/**
+ * @brief Main function of the ATM application
+ * @return int
+ */
 int main()
 {
     atmApp();
     return 0;
 }
 /**
- * @brief 
- * 
+ * @brief    ATM Application function
+ * @details  This function provides a simple ATM interface for users to  check their balance,
+ * withdraw money, and deposit money. The application runs in a loop until the user chooses to exit.
  */
 void atmApp()
 {
