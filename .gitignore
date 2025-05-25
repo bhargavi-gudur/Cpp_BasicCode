@@ -1,1 +1,22 @@
 .qodo
+# Ignore compiled binary files
+*.o
+*.exe
+*.out
+*.obj
+*.dll
+
+# Ignore build directories
+/build/
+/dist/
+
+# Ignore IDE/editor files
+*.vscode/
+*.codeblocks/
+*.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore debug logs
+debug.log
+
