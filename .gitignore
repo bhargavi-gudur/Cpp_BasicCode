@@ -9,6 +9,7 @@
 # Ignore build directories
 /build/
 /dist/
+/ouput/
 
 # Ignore IDE/editor files
 *.vscode/
