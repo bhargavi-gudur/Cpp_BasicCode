@@ -6,9 +6,11 @@ A collection of simple C++ programs designed to help understand and practice fun
 - [Cpp_BasicCode](https://github.com/bhargavi-gudur/Cpp_BasicCode.git)
 
 ### 1. `addition`
+
 This folder contains a simple program to perform basic addition of numbers. It is intended to help beginners understand how to perform arithmetic operations in C++ and how to take user input.
 
 ### 2. `bubblesort`
+
 The `bubblesort` folder contains an implementation of the bubble sort algorithm using C++'s inbuilt `swap` function. The bubble sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. It provides an example of using templates in C++ and covers how to implement basic sorting logic.
 
 ### 3. `classmodifier`
