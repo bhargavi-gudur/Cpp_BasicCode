@@ -35,6 +35,7 @@ The `copyconstructor` class includes a parameterized constructor, a copy constru
 The file `prime_num.cpp` includes a function that checks if a given integer is prime and prints the result to the console.
 
 ### 8. `bitwise`
+
 The file `bitwise.cpp` includes a function that performs AND, OR, NAND, NOT, and XOR operations on integer values and prints the results to the console.
 
 ### 9. `min_max_arr`
