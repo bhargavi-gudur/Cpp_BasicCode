@@ -48,15 +48,19 @@ The program allows users to input elements into an array and then displays the e
 This project demonstrates the use of structures in C++. The `areaofcircle` structure is used to store and display the radius and area of a circle.
 
 ### 12. `VowelOrConsonant`
+
 Sample program to determine whether a character is a vowel or consonant.
 
 ### 13. `Array_STL`
+
 Programs demonstrating arrays using the STL container.
 
 ### 14. `Cls_obj_array`
+
 Class and object programs for array manipulation.
 
 ### 15. `Cls_obj_vector`
+
 Programs demonstrating the use of classes and objects with vectors.
 
 ### 16. `DynamicMemAlloction`
@@ -109,6 +113,7 @@ Programs using vectors and unordered maps.
 Programs using unordered maps to manage and display cumulative sums.
 
 ### 32. `Vector`
+
 Programs using vectors.
 - Vector Basics: A vector is a dynamic array that can grow and shrink in size.
 - Adding Elements: Use `push_back()` to add elements.
@@ -119,12 +124,14 @@ Programs using vectors.
 ## How to Use This Repository
 
 1. **Clone the Repository**: To download the code to your local machine:
+
     ```bash
     git clone <repository-url>
     cd code-practice
     ```
 
 2. **Navigate to a Folder**: Each folder contains a standalone C++ program or set of programs. Navigate to the desired folder based on the topic you want to explore:
+
     ```bash
     cd <folder-name>
     ```
