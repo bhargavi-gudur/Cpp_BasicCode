@@ -1,52 +1,63 @@
+/**
+ * @file armstrong.cpp
+ * @author Gandla Bhargavi
+ * @brief Program to check whether a given number is an Armstrong number.
+ * 
+ * This program reads an integer from the user and checks
+ * if it is an Armstrong number using a separate function.
+ * An Armstrong number is a number that is equal to the sum
+ * of its digits each raised to the power of the number of digits.
+ * 
+ * @version 0.1
+ * @date 2025-07-26
+ */
+
 #include <iostream>
-#include <cmath> // for pow()
+#include <cmath>
 using namespace std;
 
-// Create a class
-class ArmstrongChecker {
-public:
-    int number;
+/**
+ * @brief Checks whether a number is an Armstrong number.
+ * 
+ * @param num The number to check.
+ * @return true if num is an Armstrong number, false otherwise.
+ */
+bool isArmstrong(int num) {
+    int original = num;
+    int sum = 0;
+    int digits = 0;
 
-    // Set the number using a function
-    void setNumber(int n) {
-        number = n;
+    int temp = num;
+    while (temp > 0) {
+        digits++;
+        temp /= 10;
     }
 
-    // Function to check Armstrong
-    bool isArmstrong() {
-        int temp = number;
-        int sum = 0;
-        int digits = 0;
-
-        // Step 1: Count how many digits
-        int t = temp;
-        while (t > 0) {
-            digits++;
-            t = t / 10;
-        }
-
-        // Step 2: Sum of digits raised to power
-        t = temp;
-        while (t > 0) {
-            int digit = t % 10;
-            sum += pow(digit, digits);  // digit^digits
-            t = t / 10;
-        }
-
-        // Step 3: Compare
-        return sum == number;
+    temp = num;
+    while (temp > 0) {
+        int digit = temp % 10;
+        sum += pow(digit, digits);
+        temp /= 10;
     }
-};
 
-// Main function
+    return sum == original;
+}
+
+/**
+ * @brief Main function to take input and print Armstrong result.
+ * 
+ * Reads input from the user, calls the isArmstrong function,
+ * and prints whether the number is an Armstrong number.
+ */
 int main() {
-    ArmstrongChecker obj;      // create object
-    obj.setNumber(153);        // give number to object
+    int number;
+    cout << "Enter a number: ";
+    cin >> number;
 
-    if (obj.isArmstrong())
-        cout << "Armstrong number" << endl;
+    if (isArmstrong(number))
+        cout << number << " is an Armstrong number." << endl;
     else
-        cout << "Not an Armstrong number" << endl;
+        cout << number << " is not an Armstrong number." << endl;
 
     return 0;
 }
