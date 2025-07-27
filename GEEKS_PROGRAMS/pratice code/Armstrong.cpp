@@ -1,5 +1,5 @@
 /**
- * @file armstrong.cpp
+ * @file Armstrong.cpp
  * @author Gandla Bhargavi
  * @brief Program to check whether a given number is an Armstrong number.
  * 
