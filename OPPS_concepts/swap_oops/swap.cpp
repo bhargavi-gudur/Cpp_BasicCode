@@ -10,7 +10,11 @@
 
 #include <iostream>
 using namespace std;
-
+/**
+ * @brief  This class is used to swap two numbers using a class and object.
+ *  It contains a constructor to initialize the numbers,
+ *  a method to swap the numbers, and a destructor. 
+ */
 class swap_numbers
 {
 private:
@@ -22,6 +26,10 @@ public:
 
     ~swap_numbers() {}
 };
+/**
+ * @brief  This method swaps the two numbers using arithmetic operations.
+ *  It prints the values of the numbers before and after swapping.
+ */
 void swap_numbers::swap_num()
 {
     cout << "before swapping" << endl;
@@ -34,6 +42,11 @@ void swap_numbers::swap_num()
     cout << "a:" << a << endl;
     cout << "b:" << b << endl;
 }
+/**
+ * @brief  The main function creates an object of the swap_numbers class
+ *  and calls the swap_num method to swap the numbers.
+ * @return int
+ */
 int main()
 {
     swap_numbers obj_swap_numbers(5, 7);
