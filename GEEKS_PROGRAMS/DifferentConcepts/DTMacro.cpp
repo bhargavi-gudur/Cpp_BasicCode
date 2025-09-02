@@ -27,6 +27,7 @@ int main()
 {
 
     dataTypeMcros();
+    system("pause");
     return 0;
 }
 /**
