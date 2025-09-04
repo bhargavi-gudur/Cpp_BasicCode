@@ -13,6 +13,11 @@ using namespace std;
 
 int  addition(int a, int b);
 
+/**
+ * @brief  
+ * 
+ * @return int 
+ */
 
 int main()
 {
@@ -26,6 +31,13 @@ int main()
  
 }
 
+/**
+ * @brief   
+ * 
+ * @param a 
+ * @param b 
+ * @return int 
+ */
 int  addition(int a, int b){
 
     return a+b;
