@@ -22,7 +22,6 @@ using std::endl;
  */
 int addition(int a, int b)
 {
-    system("pause>0");
     return a + b;
 }
 
