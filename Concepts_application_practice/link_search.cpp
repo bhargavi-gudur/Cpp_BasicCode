@@ -9,23 +9,45 @@
 
 #include <iostream>
 #include <string>
-#include <regex>
+
 using namespace std;
 
-int main() {
-    string text;
+/**
+ * @brief   Function to search for a URL link in a given text.
+ * 
+ */
+
+void link_search()
+{
+   string text;
     cout << "Enter text: ";
     getline(cin, text);
 
-    // Regex for http or https links
-    regex url_pattern("(https?://[a-zA-Z0-9./?=_-]+)");
+    size_t pos_http = text.find("http://");
+    size_t pos_https = text.find("https://");
+    size_t pos = string::npos;
 
-    smatch match;
-    if (regex_search(text, match, url_pattern)) {
-        cout << "Found link: " << match.str() << endl;
+    if (pos_http != string::npos && (pos_https == string::npos || pos_http < pos_https)) {
+        pos = pos_http;
+    } else if (pos_https != string::npos) {
+        pos = pos_https;
+    }
+
+    if (pos != string::npos) {
+        size_t end = text.find_first_of(" \t\n", pos);
+        string url = text.substr(pos, end == string::npos ? string::npos : end - pos);
+        cout << "Found link: " << url << endl;
     } else {
         cout << "No link found." << endl;
     }
+}
+/**
+ * @brief  Main function to execute the link search example .
+ * 
+ * @return int 
+ */
+int main() {
 
+    link_search();
     return 0;
 }
