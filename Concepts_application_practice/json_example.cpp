@@ -14,11 +14,20 @@
 
 #include <iostream>
 #include <nlohmann/json.hpp>  // JSON library
-using namespace std;
-using json = nlohmann::json;
 
-int main() {
-    // Create a JSON object
+// For convenience 
+using json = nlohmann::json;
+using std::cin;
+using std::cout;
+using std::endl;
+
+/**
+ * @brief  Function to demonstrate JSON creation, manipulation, and access
+ * 
+ */
+void print_json()
+{
+ // Create a JSON object
     json student;
 
     // Insert values
@@ -34,6 +43,13 @@ int main() {
     cout << "\nName: " << student["name"] << endl;
     cout << "Age: " << student["age"] << endl;
     cout << "Math Score: " << student["score"]["math"] << endl;
-
+}
+/**
+ * @brief  Main function to execute the JSON example
+ * @return int 
+ */
+int main() 
+{
+    print_json();
     return 0;
 }
