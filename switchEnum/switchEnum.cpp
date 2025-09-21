@@ -9,7 +9,15 @@
 
 #include <iostream>
 #include <cmath>
-using namespace std;
+
+// For M_PI constant
+#ifndef M_PI
+#define M_PI 3.14159265358979323846
+#endif
+//
+using std::cin;
+using std::cout;
+using  std::endl;
 
 /**
  * @brief Enumeration of geometric shapes.
@@ -20,9 +28,34 @@ enum geometric_shapes
     square,
     triangle
 };
+/**
+ * @brief Function to calculate the area of a geometric shape.
+ * @param shapes The geometric shape.
+ * @param dim The dimension (radius for circle, side length for square and triangle).
+ */
 
-void calculateArea(geometric_shapes shapes, double dim); // Function declaration
-
+void calculateArea(geometric_shapes shapes, double dim)
+{
+    switch (shapes)
+    {
+    case circle:
+        cout << "Area of Circle: " << M_PI * dim * dim << endl;
+        break;
+    case square:
+        cout << "Area of Square: " << dim * dim << endl;
+        break;
+    case triangle:
+        cout << "Area of Equilateral Triangle: " << (sqrt(3) / 4) * dim * dim << endl;
+        break;
+    default:
+        cout << "Unknown Shape" << endl;
+        break;
+    }
+}
+/**
+ * @brief Main function to execute the area calculation example.
+ * @return int
+ */
 int main()
 {
     geometric_shapes geoshapes;
@@ -56,21 +89,4 @@ int main()
     return 0;
 }
 
-void calculateArea(geometric_shapes shapes, double dim)
-{
-    switch (shapes)
-    {
-    case circle:
-        cout << "Area of Circle: " << M_PI * dim * dim << endl;
-        break;
-    case square:
-        cout << "Area of Square: " << dim * dim << endl;
-        break;
-    case triangle:
-        cout << "Area of Equilateral Triangle: " << (sqrt(3) / 4) * dim * dim << endl;
-        break;
-    default:
-        cout << "Unknown Shape" << endl;
-        break;
-    }
-}
+
