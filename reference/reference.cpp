@@ -35,7 +35,12 @@ void reference()
     r = b;
     cout << "a: " << a << " r:" << r << endl;
 }
-
+void callByReference(int &ref)
+{
+  cout<<"Value before modification: "<<ref<<endl;
+  ref=100;
+  cout<<"Value after modification: "<<ref<<endl;
+}
 /**
  * @brief main function
  *
@@ -43,6 +48,11 @@ void reference()
  */
 int main()
 {
+    int value_call_reference = 45;
+    cout << "**********************************" << endl;
+    callByReference(value_call_reference);
+    cout << "**********************************" << endl;
     reference();
+    cout << "**********************************" << endl;
     return 0;
 }
