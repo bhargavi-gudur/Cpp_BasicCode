@@ -1,6 +1,7 @@
 # Code Practice Repository
 
 A collection of simple C++ programs designed to help understand and practice fundamental programming concepts. 
+
 Each folder in the repository contains code that demonstrates a specific topic or functionality.
 
 ## Repository Structure
