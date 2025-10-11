@@ -9,6 +9,7 @@
 #include <iostream>
 using namespace std;
 
+// Function prototypes
 void bitwiseOperator();
 void bitWiseShiftOperator();
 
