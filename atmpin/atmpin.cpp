@@ -16,6 +16,14 @@ using std::endl;
 
 extern "C" void atmpin();
 int userpin;
+
+/**
+ * @brief  class to check the pin of atm card using oop concepts.
+ * @class atmNumber
+ * @details  class is a user-defined data type that represents a blueprint for
+ * creating objects.
+ * It encapsulates data members (attributes) and member functions (methods) that operate on the data.   
+ */
 class atmNumber
 {
 private:
@@ -57,31 +65,8 @@ public:
         cout << "destructor is called ." << endl;
     }
 };
-
 /**
- * @brief   main function to check the pin of atm card.
- *
- * @return int
- */
-int main()
-{
-    cout << "welcome to atm" << endl;
-    cout << "---------------------------------" << endl;
-    cout << "procedure concept" << endl;
-    atmpin();
-    cout << "---------------------------------" << endl;
-    cout << "oop concepts" << endl;
-    int userNum;
-    cout << "enter the user number : " << endl;
-    cin >> userNum;
-    atmNumber atm(userNum);
-    atm.displayATM();
-    cout << "---------------------------------" << endl;
-
-    return 0;
-}
-/**
- * @brief   function to check the pin of atm card.
+ * @brief  using procedure concept, function to check the pin of atm card.
  *
  */
 void atmpin()
@@ -108,4 +93,27 @@ void atmpin()
     {
         cout << "your card is blocked" << endl;
     }
+}
+
+/**
+ * @brief   main function to check the pin of atm card.
+ *
+ * @return int
+ */
+int main()
+{
+    cout << "welcome to atm" << endl;
+    cout << "---------------------------------" << endl;
+    cout << "procedure concept" << endl;
+    atmpin();
+    cout << "---------------------------------" << endl;
+    cout << "oop concepts" << endl;
+    int userNum;
+    cout << "enter the user number : " << endl;
+    cin >> userNum;
+    atmNumber atm(userNum);
+    atm.displayATM();
+    cout << "---------------------------------" << endl;
+
+    return 0;
 }
