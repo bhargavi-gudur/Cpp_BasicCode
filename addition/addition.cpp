@@ -13,7 +13,7 @@ using std::cout;
 using std::endl;
 
 /**
- * @brief    Addition of two numbers , we are defining a function named addition
+ * @brief  Addition of two numbers , we are defining a function named addition
  *  and passing the two arguments and it returns the sum of two numbers
  *
  * @param a
