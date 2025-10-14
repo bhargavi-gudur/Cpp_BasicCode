@@ -28,6 +28,7 @@ The `helloworld` folder contains the most basic C++ program that prints "Hello, 
 - Using the `iostream` library for output
 
 ### 5. `passArrToFun`
+
 This folder includes examples of how to pass arrays to functions in C++, showcasing different techniques and use cases.
 
 ### 6. `copyconstructor`
