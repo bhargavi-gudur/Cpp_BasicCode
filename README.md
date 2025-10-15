@@ -14,6 +14,7 @@ This folder contains a simple program to perform basic addition of numbers. It i
 The `bubblesort` folder contains an implementation of the bubble sort algorithm using C++'s inbuilt `swap` function. The bubble sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. It provides an example of using templates in C++ and covers how to implement basic sorting logic.
 
 ### 3. `classmodifier`
+
 This folder includes code examples demonstrating the use of class modifiers in C++. It likely explores concepts such as:
 - Access specifiers (`public`, `private`, `protected`)
 - How classes are used to encapsulate data and functions
