@@ -47,9 +47,11 @@ The file `bitwise.cpp` includes a function that performs AND, OR, NAND, NOT, and
 The `minmax_arr.cpp` file contains a C++ program that finds the minimum and maximum values in an array.
 
 ### 10. `array`
+
 The program allows users to input elements into an array and then displays the elements along with their indices. It covers basic C++ concepts like loops, arrays, and standard input/output operations.
 
 ### 11. `structure`
+
 This project demonstrates the use of structures in C++. The `areaofcircle` structure is used to store and display the radius and area of a circle.
 
 ### 12. `VowelOrConsonant`
