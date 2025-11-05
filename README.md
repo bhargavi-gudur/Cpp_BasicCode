@@ -71,24 +71,31 @@ Class and object programs for array manipulation.
 Programs demonstrating the use of classes and objects with vectors.
 
 ### 16. `DynamicMemAlloction`
+
 Programs for dynamic memory allocation.
 
 ### 17. `Enumeration`
+
 Programs using enumerations.
 
 ### 18. `Map`
+
 Programs involving the use of map containers.
 
 ### 19. `Odd_even`
+
 Programs to separate odd and even numbers using arrays.
 
 ### 20. `Odd_even_array`
+
 STL array to separate odd and even numbers.
 
 ### 21. `Odd_even_vector`
+
 Programs to separate odd and even numbers using vectors.
 
 ### 22. `PairSTL`
+
 Basic programs using the pair container in STL.
 
 ### 23. `Pointer`
@@ -102,21 +109,27 @@ Programs using void pointers.
 Programs using pointers for dynamic memory allocation.
 
 ### 26. `SwapNum_obj`
+
 Programs to swap numbers using objects and classes.
 
 ### 27. `SwitchEnum`
+
 Programs using enumeration and switch cases for geometric shapes.
 
 ### 28. `Switch_case`
+
 Programs using switch case for arithmetic operations.
 
 ### 29. `Template`
+
 Programs using templates and the AND operator.
 
 ### 30. `UnorderedMaps`
+
 Programs using vectors and unordered maps.
 
 ### 31. `Unordered_map`
+
 Programs using unordered maps to manage and display cumulative sums.
 
 ### 32. `Vector`
