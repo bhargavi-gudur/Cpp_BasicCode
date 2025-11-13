@@ -34,9 +34,11 @@ The `helloworld` folder contains the most basic C++ program that prints "Hello, 
 This folder includes examples of how to pass arrays to functions in C++, showcasing different techniques and use cases.
 
 ### 6. `copyconstructor`
+
 The `copyconstructor` class includes a parameterized constructor, a copy constructor, a destructor, and a method to display the value of its member variable.
 
 ### 7. `prime_num`
+
 The file `prime_num.cpp` includes a function that checks if a given integer is prime and prints the result to the console.
 
 ### 8. `bitwise`
@@ -44,6 +46,7 @@ The file `prime_num.cpp` includes a function that checks if a given integer is p
 The file `bitwise.cpp` includes a function that performs AND, OR, NAND, NOT, and XOR operations on integer values and prints the results to the console.
 
 ### 9. `min_max_arr`
+
 The `minmax_arr.cpp` file contains a C++ program that finds the minimum and maximum values in an array.
 
 ### 10. `array`
@@ -99,6 +102,7 @@ Programs to separate odd and even numbers using vectors.
 Basic programs using the pair container in STL.
 
 ### 23. `Pointer`
+
 Programs using pointers and call by reference.
 
 ### 24. `Pointer_types`
@@ -106,6 +110,7 @@ Programs using pointers and call by reference.
 Programs using void pointers.
 
 ### 25. `Ptr_dynamicMemAlloc`
+
 Programs using pointers for dynamic memory allocation.
 
 ### 26. `SwapNum_obj`
