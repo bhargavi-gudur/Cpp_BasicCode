@@ -1,8 +1,7 @@
 /**
  * @file Array2d_mixConcept.cpp
  * @author  Gandla bhargavi
- * @brief  This program demonstrates the use of 2D arrays, pointers,
- *  and ASCII character conversion in C++.
+ * @brief  This program demonstrates the use of  2D arrays, pointers,and ASCII character conversion in C++.
  *  It includes functions to convert ASCII values to English characters,
  *  loop through an array of ASCII values, and manipulate a 2D array using pointers.
  * The program prompts the user to input characters,converts them to their ASCII values,
