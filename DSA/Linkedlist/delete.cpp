@@ -1,5 +1,3 @@
-
-
 /**
  * @file ArrayDeleteBrief.cpp
  * @author Gandla Bhargavi 
