@@ -171,8 +171,11 @@ Programs using vectors.
 ## Learning Objectives
 
 - **Addition Program**: Learn how to handle basic arithmetic operations and user input in C++.
+
 - **Bubble Sort**: Understand how the bubble sort algorithm works and how to use templates and the `swap` function in C++.
+
 - **Class Modifiers**: Explore object-oriented programming concepts such as classes, objects, and access specifiers.
+
 - **Hello World**: Get familiar with the basic structure of a C++ program, syntax, and console output.
 
 ## Contributions
