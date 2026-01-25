@@ -37,5 +37,5 @@ int main() {
 
     delete[] bp;              // safely delete array
 
-    return 1;
+    return 0;
 }
