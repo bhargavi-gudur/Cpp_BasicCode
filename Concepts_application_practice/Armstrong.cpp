@@ -46,9 +46,9 @@ bool isArmstrong(int num) {
 /**
  * @brief Main function to take input and print Armstrong result.
  * 
- * Reads input from the user, calls the isArmstrong function,
- * and prints whether the number is an Armstrong number.
+ * Reads input from the user, calls the  *isArmstrong function,and prints whether the *number is an Armstrong number.
  */
+
 int main() {
     int number;
     cout << "Enter a number: ";
