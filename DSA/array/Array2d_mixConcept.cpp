@@ -9,8 +9,6 @@
  * @version 0.1
  * @date 2025-06-07
  *
- * @copyright Copyright (c) 2025
- *
  */
 #include <iostream>
 using namespace std;
