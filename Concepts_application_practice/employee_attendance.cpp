@@ -1,5 +1,5 @@
 /**
- * @file employee_attendance_class.cpp
+ * @file employee_attendance.cpp
  * @author Gandla Bhargavi
  * @brief
  *   This program manages attendance of 50 employees.
