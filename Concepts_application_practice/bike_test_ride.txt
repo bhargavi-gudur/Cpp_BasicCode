@@ -1,0 +1,14 @@
+main()
+  ↓
+initBikes()
+  ↓
+Menu
+  ↓
+1 → showBikes()
+2 → bookRide()
+        ↓
+    verifyID()
+        ↓
+    showBikes()
+        ↓
+    booking confirm
