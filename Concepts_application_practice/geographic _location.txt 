@@ -1,0 +1,63 @@
+# 🌍 Geographic Location Checker (C++)
+
+This project is a simple **C++ program** that checks whether a given point lies **inside or outside a circle and a polygon**.
+
+---
+
+## 📌 Features
+
+- 🔵 Checks point inside/outside **Circle**
+- 🔺 Checks point inside/outside **Polygon (multiple sides)**
+- 📐 Uses mathematical formulas and geometry concepts
+- 💻 Beginner-friendly and easy to understand
+
+---
+
+## 🧠 Concepts Used
+
+- C++ Functions
+- Arrays (Data Structures)
+- Geometry (Mathematics)
+- Conditional Statements
+
+---
+
+## 📊 Mathematical Logic
+
+### 🔵 Circle
+- Uses **Distance Formula**  
+- If distance ≤ radius → Inside  
+- Else → Outside  
+
+### 🔺 Polygon
+- Uses **Ray Casting Algorithm**
+- Odd intersections → Inside  
+- Even intersections → Outside  
+
+---
+
+## ▶️ How to Run
+
+1. Compile the program:
+   ```bash
+   g++ geo_location_polygon.cpp
+
+2.Run the program:
+  ```bash
+  ./a.out
+
+3.EXample of the output:
+  Enter point: 3 3
+  Enter circle center: 0 0
+  Enter radius: 5
+  Enter number of polygon vertices: 4
+Enter vertices:
+0 0
+5 0
+5 5
+0 5
+
+4.output:
+  Point is INSIDE the Circle
+  Point is INSIDE the Polygon
+
