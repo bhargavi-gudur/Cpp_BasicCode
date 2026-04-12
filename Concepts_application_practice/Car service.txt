@@ -1,0 +1,61 @@
+Car Service Booking System (C++)
+
+Concept Explanation:
+
+This program is based on Object-Oriented Programming (OOP) concepts in C++.
+It simulates a simple car service booking system where a user can select
+different types of services and get the total bill.
+
+-------------------------------------
+
+1. Class and Object:
+A class named "CarService" is created as a blueprint.
+It contains data members like customer name, car model, and service choice.
+An object "c" is created in the main function to access class functions.
+
+-------------------------------------
+
+2. Encapsulation:
+All data and functions are grouped inside the class.
+This helps in organizing the program and improving readability.
+
+-------------------------------------
+
+3. Functions Used:
+
+- getDetails()
+  Takes input from the user such as customer name and car model.
+
+- showServices()
+  Displays available car services and their prices.
+
+- selectService()
+  Allows the user to choose a service.
+
+- calculateBill()
+  Calculates the cost based on selected service using switch case.
+
+- displayBill()
+  Displays final bill details including customer info and total cost.
+
+-------------------------------------
+
+4. Control Structure:
+The program uses a menu-driven approach with a do-while loop.
+Switch-case is used to handle user choices.
+
+-------------------------------------
+
+5. Real-World Application:
+This program represents how service centers manage bookings and billing.
+It can be extended further with features like payment, scheduling, and records.
+
+-------------------------------------
+
+Conclusion:
+This project helps in understanding basic OOP concepts like class, object,
+functions, and decision-making in C++ through a real-world example.
+
+-------------------------------------
+Author: Gandla Bhargavi
+Date: 12-04-2026
