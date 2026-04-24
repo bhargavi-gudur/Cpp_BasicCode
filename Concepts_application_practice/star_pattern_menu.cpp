@@ -2,9 +2,7 @@
  * @file star_pattern_menu.cpp
  * @author Gandla Bhargavi
  * @brief Menu-based star pattern program in C++.
- * 
  * This program prints different star patterns based on user choice.
- * 
  * @version 0.1
  * @date 2025-08-07
  */
