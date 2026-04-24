@@ -1,10 +1,8 @@
 
-
-    /**
+/**
  * @file ShoppingCartFile.cpp
  * @author Gandla Bhargavi
  * @brief Program to add shopping cart items, save them to a file, and display them.
- *
  * @version 0.2
  * @date 2025-10-03
  */
@@ -13,8 +11,14 @@
 #include <fstream>
 #include <vector>
 #include <string>
+
 using namespace std;
 
+/**
+ * @brief  A class representing a shopping cart that can add items,
+ *  save to a file, and load from a file.
+ * 
+ */
 class ShoppingCart {
 private:
     vector<string> items;  // store item names

@@ -1,8 +1,7 @@
 /**
  * @file social_analytics.cpp
  * @author Gandla Bhargavi
- * @brief
- *   This program simulates social media analytics.
+ * @brief This program simulates social media analytics.
  *   It counts likes, shares, and comments with current date.
  * @date 14-04-2026
  */
@@ -12,7 +11,8 @@
 using namespace std;
 
 /**
- * @brief Class for Analytics
+ * @brief Class for Analytics to track likes, shares, and comments.
+ * It also displays the analytics report with the current date.
  */
 class Analytics {
 private:
@@ -61,7 +61,8 @@ public:
 };
 
 /**
- * @brief Main function
+ * @brief Main function to demonstrate social media analytics.
+ * It provides a menu to add likes, shares, comments, and view analytics.   
  */
 int main() {
 
