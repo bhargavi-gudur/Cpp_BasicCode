@@ -8,7 +8,17 @@
 
 #include <iostream>
 #include <ctime>
-using namespace std;
+
+using  std::cout;
+using  std::cin;
+using  std::endl;
+using std::time_t;
+using std::tm;
+using std::localtime;
+using std::time;
+using std::string;
+using std::to_string;
+
 
 /**
  * @brief Class for Analytics to track likes, shares, and comments.
