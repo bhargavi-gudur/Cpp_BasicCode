@@ -40,6 +40,19 @@ public:
         cout << "Comment added 💬\n";
     }
 
+    void dislike()
+    {
+        if (likes > 0)
+        {
+            likes--;
+            cout << "Disliked 👎\n";
+        }
+        else
+        {
+            cout << "No likes to remove!\n";
+        }
+    }
+
     // Show analytics
     void showAnalytics() {
 
@@ -76,7 +89,8 @@ int main() {
         cout << "2. Share\n";
         cout << "3. Comment\n";
         cout << "4. View Analytics\n";
-        cout << "5. Exit\n";
+        cout << "5. Dislike\n";
+        cout << "6. Exit\n";
 
         cout << "Enter choice: ";
         cin >> choice;
@@ -100,14 +114,18 @@ int main() {
                 break;
 
             case 5:
-                cout << "Thank you!\n";
+                a.dislike();
+                break;
+
+            case 6: 
+                cout << "Exiting...\n";
                 break;
 
             default:
                 cout << "Invalid choice!\n";
         }
 
-    } while(choice != 5);
+    } while(choice != 6);
 
     return 0;
 }
