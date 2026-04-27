@@ -57,3 +57,4 @@ int main()
 
     return 0;
 }
+// time complexity of bubble sort is O(n^2) and space complexity is O(1)
