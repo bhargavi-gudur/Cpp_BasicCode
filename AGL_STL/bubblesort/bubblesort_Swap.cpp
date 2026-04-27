@@ -12,7 +12,7 @@
 using namespace std;
 template <class bubblesort>
 /**
- * @brief
+ * @brief function to sort the array using bubble sort and swap function.
  *
  * @param a
  * @param n
@@ -33,7 +33,7 @@ void bubblesort_swap(bubblesort a[], int n)
     }
 }
 /**
- * @brief
+ * @brief main function to test the bubble sort with swap function.
  *
  * @return int
  */
