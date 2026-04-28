@@ -9,11 +9,16 @@
 
 #include <iostream>
 #include <algorithm>
-using namespace std;
+
+using  std::endl;
+using  std::cin;
+using  std::cout;
+using  std::swap;
+
 template <class bubblesort>
 /**
  * @brief function to sort the array using bubble sort and swap function.
- *
+ * this approach is brute force and it is not efficient for large data sets.
  * @param a
  * @param n
  */
