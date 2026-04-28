@@ -42,7 +42,7 @@ public:
 };
 
 /**
- * @brief    main function we are calling the addition function .
+ * @brief  main function we are calling the addition function .
  * @return int
  */
 
