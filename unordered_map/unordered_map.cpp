@@ -12,6 +12,7 @@
 #include <iostream>
 #include <unordered_map>
 #include <utility>
+
 using namespace std;
 /**
  * @brief class of unordered_map
@@ -44,9 +45,8 @@ void unorder_map ::display()
     }
     for (const auto &pair : sum)
     {
-        cout << "pair.first :" << pair.first << " "<<"pair.second : "
-             << pair.second.second << " "<<endl;
-        
+        cout << "pair.first :" << pair.first << " " << "pair.second : "
+             << pair.second.second << " " << endl;
     }
     cout << "cumlative or total sum " << cumlative_sum << endl;
 }
