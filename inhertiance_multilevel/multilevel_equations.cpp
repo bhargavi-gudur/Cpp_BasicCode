@@ -1,8 +1,7 @@
-
 /**
  * @file multilevel_equations.cpp
  * @author Gandla Bhargavi
- * 
+ *
  * @brief This program demonstrates multilevel inheritance in C++.
  *  It defines three classes: add, factorial, and square.
  *  The add class performs addition of two numbers, the factorial
@@ -21,7 +20,6 @@
 using std::cin;
 using std::cout;
 using std::endl;
-
 
 /**
  * @brief  The add class performs addition of two numbers and displays the result.
