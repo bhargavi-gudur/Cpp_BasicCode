@@ -4,8 +4,10 @@
  * @brief  This program defines a class `pairsum_bruteForce` that contains 
  * a method to find the indices of two numbers in an array that add up to a 
  * given target sum using a brute-force approach. 
+ * 
  * The main function prompts the user to enter a target sum and displays 
  * the indices of the two numbers that add up to the target if they exist.
+ * 
  * @version 0.1
  * @date 2026-04-27
  * 
