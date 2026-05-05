@@ -1,4 +1,4 @@
-// multilevel inheritance  using protected access specifier
+
 /**
  * @file multilevel_equations.cpp
  * @author Gandla Bhargavi
@@ -16,9 +16,12 @@
  *
  */
 #include <iostream>
+
+// Avoid using the entire std namespace to prevent potential name conflicts
 using std::cin;
 using std::cout;
 using std::endl;
+
 
 /**
  * @brief  The add class performs addition of two numbers and displays the result.
