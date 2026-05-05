@@ -46,9 +46,8 @@ class pairsum_bruteForce
 };
 
 /**
- * @brief  Main function to execute the program 
- *  
- *
+ * @brief  Main function to execute the program that finds two numbers in an 
+ * array that add up to a target sum.
  * @return int
  */
 int main()
