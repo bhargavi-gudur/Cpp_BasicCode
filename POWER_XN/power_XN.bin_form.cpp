@@ -4,11 +4,11 @@
  * @brief This program defines a class `binaryform` that converts an integer into its
  *  binary representation and displays it. The class constructor takes an integer as input,
  *  converts it to binary, and stores the binary digits in a vector.
+ * 
  *  The `display_binary` method is used to print the binary form of the integer.
+ * 
  * @version 0.1
  * @date 2026-05-07
- *
- * @copyright Copyright (c) 2026
  *
  */
 
