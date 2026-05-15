@@ -15,7 +15,7 @@ using std::cout;
 using std::endl;
 
 /**
- * @brief   Base class for demonstrating inheritance
+ * @brief   Base class for demonstrating inheritance in C++.
  * 
  */
 class InheritanceParent
