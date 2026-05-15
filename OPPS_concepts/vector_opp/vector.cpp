@@ -1,16 +1,23 @@
 /**
  * @file vector.cpp
  * @author Gandla Bhargavi
+ * 
  * @brief This file demonstrates the use of vectors in C++.
- * It defines a vector of integers and provides functions to manipulate
- * @version 0.1
+ * It defines a vector of integers and provides functions to manipulate 
+ * 
+ * @version 0.2
  * @date 2025-03-30
- *
+ * @modified: 2025-05-15 by gandla bhargavi
  */
 
 #include <iostream>
 #include <vector>
-using namespace std;
+
+using  std::cout;
+using  std::cin;
+using  std::endl;
+using std::vector;
+
 /**
  * @brief   This class demonstrates the use of vectors in C++.
  * It defines a vector of integers and provides functions to manipulate
@@ -21,9 +28,24 @@ using namespace std;
 class vector_function
 {
 protected:
-    vector<int> numbers = {3, 5, 6, 34, 78, 9, 7};
+    int size;
+    vector<int> numbers;
 
 public:
+    /**
+     * @brief   Constructor for the vector_function class.
+     * @param s The size of the vector.
+     */
+    vector_function(int s) : size(s)
+    {
+        for (int i = 0; i < size; i++)
+        {
+            numbers.push_back(i + 1);
+        }
+    }
+    /**
+     * @brief   Function to demonstrate vector operations.
+     */
     void vector_fun()
     {
         cout << " element at index 0 -> " << numbers.at(0) << endl;
@@ -71,9 +93,12 @@ public:
  */
 int main()
 {
-    vector_function objvector_function;
-    derivedvector_function objderivedvector_function;
+    int size = 0;
+    cout << "Enter the size of the vector: ";
+    cin >> size;
+    vector_function objvector_function(size);
     objvector_function.vector_fun();
+    derivedvector_function objderivedvector_function(size);
     objderivedvector_function.derivedvector_fun();
     return 0;
 }
