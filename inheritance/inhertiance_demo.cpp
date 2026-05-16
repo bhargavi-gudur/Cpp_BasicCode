@@ -1,9 +1,10 @@
 /**
- * @file inhertiance_demo.cpp
+ * @file inheritance_demo.cpp
  * @author gandla bhargavi
  * @brief  A simple demonstration of inheritance in C++
  *  This program defines a base class `InheritanceParent` with 
- * a method to display the square of a value.        
+ * a method to display the square of a value. 
+ *        
  * @version 0.1
  * @date 2026-05-12
  * 
