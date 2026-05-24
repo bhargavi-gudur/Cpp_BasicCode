@@ -7,10 +7,13 @@
  *   to decide whether airbags should deploy.
  *   Demonstrates OOP concepts in C++.
  * @date 23-05-2026
+ * @update: code updated by gandla bhargavi 24-05-2026
  */
 
 #include <iostream>
-using namespace std;
+using std::cin;
+using std::cout;
+using std::endl;
 
 /**
  * @brief Class for Airbag System
@@ -27,7 +30,8 @@ public:
     /**
      * @brief Input vehicle details
      */
-    void inputData() {
+    AirbagSystem()
+    {
 
         cout << "Enter Vehicle Speed (km/h): ";
         cin >> speed;
@@ -68,17 +72,15 @@ public:
 };
 
 /**
- * @brief Main function
+ * @brief Main function 
  */
 int main() {
 
-    AirbagSystem a;
+    AirbagSystem objAirbagSystem;
 
     cout << "===== Vehicle Airbag Control System =====\n";
 
-    a.inputData();
-
-    a.checkAirbag();
+    objAirbagSystem.checkAirbag();
 
     return 0;
 }
