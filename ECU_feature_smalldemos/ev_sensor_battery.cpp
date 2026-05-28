@@ -1,5 +1,5 @@
 /**
- * @file ev_sensor_inheritance.cpp
+ * @file ev_sensor_battery.cpp
  * @author Gandla Bhargavi
  * @brief
  *   This program simulates Electric Vehicle (EV)
