@@ -1,13 +1,15 @@
 /**
- * @file ev_sensor_battery.cpp
+ * @file ev_sensor_inheritance.cpp
  * @author Gandla Bhargavi
  * @brief
- *   This program demonstrates inheritance using
- *   Electric Vehicle (EV) Sensors.
- *   Different sensor classes inherit from
- *   a base Sensor class.
- *   Demonstrates OOP and STL concepts in C++.
- * @date 27-05-2026
+ *   This program simulates Electric Vehicle (EV)
+ *   sensor monitoring system using inheritance and STL.
+ *   It monitors:
+ *   - Battery Temperature
+ *   - Current
+ *   - Voltage
+ *   - Motor Speed
+ * @date 28-05-2026
  */
 
 #include <iostream>
@@ -15,7 +17,7 @@
 using namespace std;
 
 /**
- * @brief Base class for Sensor
+ * @brief Base Sensor Class
  */
 class Sensor {
 
@@ -46,7 +48,7 @@ public:
 };
 
 /**
- * @brief Derived class for Battery Temperature Sensor
+ * @brief Battery Temperature Sensor
  */
 class BatteryTempSensor : public Sensor {
 
@@ -64,26 +66,56 @@ public:
             if(value > 45) {
 
                 cout << value
-                     << " -> High Temperature Warning ⚠️\n";
+                     << "°C -> Overheating Warning ⚠️\n";
             }
             else {
 
                 cout << value
-                     << " -> Normal Temperature ✅\n";
+                     << "°C -> Temperature Normal ✅\n";
             }
         }
     }
 };
 
 /**
- * @brief Derived class for Voltage Sensor
+ * @brief Current Sensor
+ */
+class CurrentSensor : public Sensor {
+
+public:
+
+    /**
+     * @brief Check battery current
+     */
+    void checkCurrent() {
+
+        cout << "\n===== Battery Current Status =====\n";
+
+        for(float value : readings) {
+
+            if(value > 100) {
+
+                cout << value
+                     << "A -> High Current Warning ⚠️\n";
+            }
+            else {
+
+                cout << value
+                     << "A -> Current Normal ✅\n";
+            }
+        }
+    }
+};
+
+/**
+ * @brief Voltage Sensor
  */
 class VoltageSensor : public Sensor {
 
 public:
 
     /**
-     * @brief Check voltage status
+     * @brief Check voltage level
      */
     void checkVoltage() {
 
@@ -94,12 +126,42 @@ public:
             if(value < 300) {
 
                 cout << value
-                     << " -> Low Voltage Warning ⚠️\n";
+                     << "V -> Low Voltage Warning ⚠️\n";
             }
             else {
 
                 cout << value
-                     << " -> Voltage Normal ✅\n";
+                     << "V -> Voltage Normal ✅\n";
+            }
+        }
+    }
+};
+
+/**
+ * @brief Motor Speed Sensor
+ */
+class MotorSpeedSensor : public Sensor {
+
+public:
+
+    /**
+     * @brief Check motor RPM
+     */
+    void checkSpeed() {
+
+        cout << "\n===== Motor Speed Status =====\n";
+
+        for(float value : readings) {
+
+            if(value > 5000) {
+
+                cout << value
+                     << " RPM -> High Speed Warning ⚠️\n";
+            }
+            else {
+
+                cout << value
+                     << " RPM -> Speed Normal ✅\n";
             }
         }
     }
@@ -111,19 +173,25 @@ public:
 int main() {
 
     BatteryTempSensor battery;
+    CurrentSensor current;
     VoltageSensor voltage;
+    MotorSpeedSensor motor;
 
     cout << "===== Battery Temperature Sensor =====\n";
-
     battery.inputReadings();
-
     battery.checkTemperature();
 
+    cout << "\n===== Current Sensor =====\n";
+    current.inputReadings();
+    current.checkCurrent();
+
     cout << "\n===== Voltage Sensor =====\n";
-
     voltage.inputReadings();
-
     voltage.checkVoltage();
+
+    cout << "\n===== Motor Speed Sensor =====\n";
+    motor.inputReadings();
+    motor.checkSpeed();
 
     return 0;
 }
