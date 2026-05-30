@@ -4,7 +4,7 @@
  * @brief  a simple program to perform addition of two numbers using a class in C++.
  * @version 0.2
  * @date 2024-09-29
- * @modified: by Gandla Bhargavi on 2024-10-01
+ * @modified: by Gandla Bhargavi on 2026-05-30
  *
  */
 #include <iostream>
@@ -48,9 +48,9 @@ public:
 
 int main()
 {
-    int Xvalue = 0,
-        int Yvalue = 0;
-    int result = 0;
+    int Xvalue {0};
+    int Yvalue {0};
+    int result {0};
 
     cout << "enter the value of x and y" << endl;
     cin >> Xvalue >> Yvalue;
