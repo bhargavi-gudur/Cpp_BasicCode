@@ -1,72 +1,94 @@
 /**
  * @file bitwise.cpp
  * @author Gandla Bhargavi
- * @brief Demonstrates the use of bitwise operators in C++.
- * @version 0.1
+ * @brief  this programm is to perform bitwise operator and
+ *  bitwise shift operator using class in C++.
+ * 
+ * @version 0.2
  * @date 2024-10-05
+ * @modified: by Gandla Bhargavi on 2026-05-30
  *
  */
 #include <iostream>
-using namespace std;
 
-// Function prototypes
-void bitwiseOperator();
-void bitWiseShiftOperator();
+using std::cin;
+using std::cout;
+using std::endl;
 
 /**
- * @brief Calls bitwiseOperator() and exits.
+ * @brief a class to perform bitwise operator and bitwise shift operator.
+ */
+class bitwiseOperator
+{
+private:
+    int opert;
+
+public:
+    bitwiseOperator(int operator_all) : opert(operator_all)
+    {
+        cout << "*************************" << endl;
+        cout << "checking the bitwise operator work : " << endl;
+        opert &= opert;
+        cout << "andoperator:" << opert << endl;
+        opert |= opert;
+        cout << "or operator:" << opert << endl;
+        opert &= (~opert);
+        cout << "NAND operator:" << opert << endl;
+        opert = ~opert;
+        cout << "NOT operator:" << opert << endl;
+        opert ^= opert;
+        cout << "XOR operator:" << opert << endl;
+        cout << "****************************" << endl;
+    }
+    ~bitwiseOperator() {}
+};
+
+/**
+ * @brief   a class to perform bitwise shift operator.
+ * 
+ */
+class bitWiseShiftOperator
+{
+private:
+    int value;
+
+public:
+    bitWiseShiftOperator(int v) : value(v)
+    {
+        cout << "checking the bitwise operator work : " << endl;
+        leftshift_fun(value);
+        rigthshift_fun(value);
+    }
+    void leftshift_fun(int &v)
+    {
+        int leftshift;
+        leftshift = value << 1;
+        cout << "left shift operator:" << leftshift << endl;
+    }
+    void rigthshift_fun(int &v)
+    {
+        int rightshift;
+        rightshift = value >> 1;
+        cout << "right shift operator:" << rightshift << endl;
+    }
+    ~bitWiseShiftOperator() {}
+};
+
+/**
+ * @brief The main function to demonstrate bitwise operations.
  *
  * @return int
  */
 int main()
 {
-    bitwiseOperator();
-    bitWiseShiftOperator();
+    int value{0};
+    cout<<"enter the value to perform bitwise operations (and ,or,not ,xor, nand):" << endl;
+    cin>>value;
+    int operator_all{0};
+    cout<<"enter the value to perform bitwise shift operation :" << endl;
+    cin>>operator_all;
+
+    bitwiseOperator objbitwiseOperator(operator_all);
+    bitWiseShiftOperator objbitWiseShiftOperator(value);
     return 0;
-}
-
-/**
- * @brief Performs several bitwise operations (AND, OR, NAND, NOT, XOR)
- * and prints the results.
- *
- */
-void bitwiseOperator()
-{
-    int andOpert = 9;
-    int orOperat = 8;
-    int NandOperat = 10;
-    int NotOperat = 1;
-    int XorOperat = 2;
-
-    cout << "*************************" << endl;
-    cout << "checking the bitwise operator work : " << endl;
-    andOpert &= andOpert;
-    cout << "andoperator:" << andOpert << endl;
-    orOperat |= orOperat;
-    cout << "or operator:" << orOperat << endl;
-    NandOperat &= (~NandOperat);
-    cout << "NAND operator:" << NandOperat << endl;
-    NotOperat = ~NotOperat;
-    cout << "NOT operator:" << NotOperat << endl;
-    XorOperat ^= XorOperat;
-    cout << "XOR operator:" << XorOperat << endl;
-    cout << "****************************" << endl;
-}
-/**
- * @brief   Performs several bitwise shift operations (left shift , right shift)
- * and prints the results.
- *
- */
-void bitWiseShiftOperator()
-{
-    int leftshift;
-    int rightshift;
-    int value = 6;
-    cout << "checking the bitwise operator work : " << endl;
-
-    leftshift = value << 1;
-    cout << "left shift operator:" << leftshift << endl;
-    rightshift = value >> 1;
-    cout << "right shift operator:" << rightshift << endl;
-    cout << "****************************" << endl;
 }
