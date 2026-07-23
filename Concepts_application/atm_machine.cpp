@@ -8,40 +8,41 @@
 
 #include <iostream>
 #include <map>
-using namespace std;
 
 /** @brief Class representing a simplified ATM machine. */
 class ATM
 {
- private:
+private:
     int balance = 5000;
-    bool cardInserted = false, cardRead = false;
-    map<int, int> notes{{2000, 0}, {500, 0}, {100, 0}}; // denomination → count
+    bool cardInserted = false;
+    bool cardRead = false;
+    std::map<int, int> notes{{2000, 0}, {500, 0}, {100, 0}}; // denomination → count
 
 public:
     void insertCard()
     {
         cardInserted = true;
-        cout << "Card Inserted\n";
+        std::cout << "Card Inserted\n";
     }
     void readCard()
     {
         if (!cardInserted)
-            cout << "Insert card!\n";
+            std::cout << "Insert card!\n";
         else
         {
             cardRead = true;
-            cout << "Card Read\n";
+            std::cout << "Card Read\n";
         }
     }
     void checkBalance()
     {
         if (cardReady())
-            cout << "Balance: " << balance << " Rs\n";
+            std::cout << "Balance: " << balance << " Rs\n";
     }
 
     void withdraw()
     {
+        using namespace std;
         if (!cardReady())
             return;
         int amt;
@@ -65,7 +66,9 @@ public:
 
     void menu()
     {
-        for (int ch;;)
+        using namespace std;
+        int ch = 0;
+        for (ch>0;;)
         {
             cout << "\n=== ATM Menu ===\n1.Insert Card\n2.Read Card\n3.Balance\n4.Withdraw\n5.Exit\nChoice: ";
             cin >> ch;
@@ -89,7 +92,7 @@ private:
     {
         if (!cardInserted || !cardRead)
         {
-            cout << "Card not ready!\n";
+            std::cout << "Card not ready!\n";
             return false;
         }
         return true;
@@ -98,6 +101,7 @@ private:
 /** @brief Main function to run the ATM simulation. */
 int main()
 {
+    std::cout << "Welcome to the ATM!\n";
     ATM atm;
     atm.menu();
 }
